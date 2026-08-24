@@ -31,7 +31,7 @@ La herramienta procesa registros de red (*logs*) para evaluar patrones de cibera
 
 ## 📐 Fundamento Teórico y Funcionalidades
 
-### 1. Variable Discreta ($X$): Cantidad de Ataques por Hora
+### 1. Variable Discreta (X): Cantidad de Ataques por Hora
 Representa la cantidad de ataques detectados en ventanas temporales continuas de 1 hora.
 - **Limpieza y Completitud**: Rellena automáticamente los intervalos u "horas de paz" con 0 ataques para mantener la rigurosidad estadística del proceso de Poisson / masa discreta.
 - **Función de Masa de Probabilidad $p_X(x)$**: Distribución de frecuencias relativas.
@@ -43,7 +43,7 @@ Representa la cantidad de ataques detectados en ventanas temporales continuas de
   $$F_X(x) = P(X \le x)$$
 - **Evaluación de Umbrales**: Cálculo probabilístico de eventos acumulados $P(X \le k)$ (por defecto $k = 3$).
 
-### 2. Variable Continua ($Y$): Longitud de Paquetes (`Packet Length`)
+### 2. Variable Continua (Y): Longitud de Paquetes (`Packet Length`)
 Representa el tamaño en bytes del paquete de red involucrado en el ataque.
 - **Regla de Sturges**: Determinación óptima del número de intervalos para el histograma:
   $$k = \lceil 1 + 3.322 \cdot \log_{10}(n) \rceil$$
@@ -88,8 +88,8 @@ trabajo practico/
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <URL_DEL_REPOSOTORIO>
-   cd "trabajo practico"
+   git clone https://github.com/Nicobacalini/CyberAttack-Probability-Dashboard
+   cd "CyberAttack-Probability-Dashboard"
    ```
 
 2. **Crear y activar un entorno virtual (opcional pero recomendado)**:
