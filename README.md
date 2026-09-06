@@ -7,7 +7,6 @@
 
 Aplicación de escritorio interactiva con estética **Futurista/Neón** desarrollada en Python para el procesamiento, análisis probabilístico y visualización estadística de eventos de ciberseguridad a partir de un conjunto de datos masivo.
 
-Este proyecto fue desarrollado en el marco de la asignatura **Probabilidad y Estadística** para la carrera **Analista en Sistemas**.
 
 ---
 
